@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>speed test quiz.</title>
+            <!--TODO this style sheet doesn't seem to be connecting be sure to test-->
+        <link rel="stylesheet" src="style.css">
+    </head>
+  
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <h1>Speed coding Quiz Time!</h1>
+        <h2 class="time"></h2>
+        <br/><br/><br/>
+        <div class="qPanel">
+            <div style="font-size:20pt;">Quiz</div>
+             <div class="ask" id="question">  
+                 <span id="quest"></span>
+             </div>
+             <div><input type="radio" id="butA" name="buttons">
+                <span id="buttonA"></span>
+            </div>
+            <div><input type="radio" id="butB" name="buttons">
+                <span id="buttonB"></span>
+            </div>
+            <div><input type="radio" id="butC" name="buttons">
+                <span id="buttonC"></span>
+            </div>
+            <div class="lftCss">
+            <button class="nxtBtn" onclick="checkAnswer()"> -submit- </button>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
